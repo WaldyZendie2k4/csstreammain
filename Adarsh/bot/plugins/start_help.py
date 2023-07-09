@@ -77,7 +77,7 @@ async def start(b, m):
     await StreamBot.send_photo(
         chat_id=m.chat.id,
         photo ="https://graph.org/file/3e6a71372c355de2ee060.jpg",
-        caption =f'Hi {m.from_user.mention(style="md")}!,\nI Can Convert Telegram Files Into Stream And High Speed Download Links💥.\nSend Me Any File And Get A High Speed Direct download link and streamable link.!',
+        caption =f'Hi {m.from_user.mention(style="md")}!,\nSend Me Any File To See The Magic 🫣 With Love @TG_Movies4u❤️',
         reply_markup=buttonz)
 
 
