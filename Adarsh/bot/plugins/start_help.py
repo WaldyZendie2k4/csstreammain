@@ -77,7 +77,7 @@ async def start(b, m):
     await StreamBot.send_photo(
         chat_id=m.chat.id,
         photo ="https://graph.org/file/3e6a71372c355de2ee060.jpg",
-        caption =f'Hi {m.from_user.mention(style="md")}!,\nSend Me Any File To See The Magic 🫣 With Love @TG_Movies4u❤️',
+        caption =f'Hi {m.from_user.mention(style="md")}!,\nSend Me Any File To See The Magic 🫣 With Love @CS_Files❤️',
         reply_markup=buttonz)
 
 
