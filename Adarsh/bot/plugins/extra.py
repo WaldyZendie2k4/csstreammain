@@ -17,12 +17,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="SPONSORED BY [TG_Movies4u](https://t.me/TG_Movies4u)",
+                    text="SPONSORED BY [TG_Movies4u](https://t.me/CS_Files)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Owner💻", url=f"https://t.me/brucewayne0070")
+                                InlineKeyboardButton("Owner💻", url=f"https://t.me/CSadmin04")
                             ]
                         ]
                     ),
@@ -42,7 +42,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Subscribe ❤️", url=f"https://t.me/TG_Movies4u")
+                                InlineKeyboardButton("Subscribe ❤️", url=f"https://t.me/CS_Files")
                             ]
                         ]
                     ),
