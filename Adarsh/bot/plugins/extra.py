@@ -17,7 +17,7 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="SPONSORED BY [TG_Movies4u](https://t.me/CS_Files)",
+                    text="SPONSORED BY [CS_Files](https://t.me/CS_Files)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
