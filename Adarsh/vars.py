@@ -9,17 +9,17 @@ load_dotenv()
 
 class Var(object):
     MULTI_CLIENT = False
-    API_ID = int(getenv('API_ID', "23292000"))
-    API_HASH = str(getenv('API_HASH', "be15e99b531e98b996bd4518fffe162d"))
-    BOT_TOKEN = str(getenv('BOT_TOKEN', "6691198147:AAFFZoZs6YbfH4Gqkwttnd5LGtn-l3Xbwjs"))
-    name = str(getenv('name', 'filetolinkbot'))
+    API_ID = int(getenv('API_ID', "22217932"))
+    API_HASH = str(getenv('API_HASH', "d722db74da63a9e46ba2dcba49c69a4c"))
+    BOT_TOKEN = str(getenv('BOT_TOKEN', "6856578919:AAFPnJAglyUkpHZE_EndEFDu7u3YflIplGk"))
+    name = str(getenv('name', 'waldywritings'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', "-1001951246507"))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', "-1002011608695"))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
-    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1758343727").split())  
+    OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1395772318").split())  
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = str(getenv('APP_NAME'))
     OWNER_USERNAME = str(getenv('OWNER_USERNAME'))
@@ -37,6 +37,6 @@ class Var(object):
         URL = "https://{}/".format(FQDN)
     else:
         URL = "https://{}/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL', ""))
+    DATABASE_URL = str(getenv('DATABASE_URL', "mongodb+srv://waldy:waldy@cluster0.qmvghzb.mongodb.net/?retryWrites=true&w=majority"))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-10019512465079")).split())) 
