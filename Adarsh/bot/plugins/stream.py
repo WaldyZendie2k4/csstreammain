@@ -67,7 +67,7 @@ async def private_receive_handler(c: Client, m: Message):
             if user.status == "kicked":
                 await c.send_message(
                     chat_id=m.chat.id,
-                    text="You are banned!\n\n  **Cᴏɴᴛᴀᴄᴛ Support [Support](https://t.me/CSAdmin69_bot) My Master Will Help You**",
+                    text="You are banned!\n\n  **Cᴏɴᴛᴀᴄᴛ Support [Support](https://t.me/WaldyWritings_Bot) My Master Will Help You**",
                     
                     disable_web_page_preview=True
                 )
@@ -90,7 +90,7 @@ async def private_receive_handler(c: Client, m: Message):
             await m.reply_text(e)
             await c.send_message(
                 chat_id=m.chat.id,
-                text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍʏ Support** [Support](CSAdmin69_bot)",
+                text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍʏ Support** [Support](WaldyWritings_Bot)",
                 
                 disable_web_page_preview=True)
             return
@@ -106,8 +106,8 @@ async def private_receive_handler(c: Client, m: Message):
             text=msg_text.format(get_name(log_msg), humanbytes(get_media_file_size(m)), online_link, stream_link),
             quote=True,
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Main Channel", url=f'https://t.me/CS_Files'), #Stream Link
-                                                InlineKeyboardButton('Backup Channel', url=f'https://t.me/CS_Files')]]) #Download Link
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Main Channel", url=f'https://t.me/Waldy_Writings'), #Stream Link
+                                                InlineKeyboardButton('Backup Channel', url=f'https://t.me/Waldy_Writings')]]) #Download Link
         )
     except FloodWait as e:
         print(f"Sleeping for {str(e.x)}s")
