@@ -17,12 +17,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="SPONSORED BY [CS_Files](https://t.me/CS_Files)",
+                    text="SPONSORED BY [Waldy_Writings](https://t.me/Waldy_Writings)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Owner💻", url=f"https://t.me/CSadmin04")
+                                InlineKeyboardButton("Owner💻", url=f"https://t.me/Waldy_2k4")
                             ]
                         ]
                     ),
@@ -42,7 +42,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Subscribe ❤️", url=f"https://t.me/CS_Files")
+                                InlineKeyboardButton("Subscribe ❤️", url=f"https://t.me/Waldy_Writings")
                             ]
                         ]
                     ),
