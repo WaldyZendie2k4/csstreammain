@@ -55,7 +55,7 @@ async def start(b, m):
         except UserNotParticipant:
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
-                photo="https://graph.org/file/9b6db6a71379326c03bd9.jpg",
+                photo="https://telegra.ph/file/97cc4a8b2531a08fb4958.jpg",
                 caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -70,14 +70,14 @@ async def start(b, m):
         except Exception:
             await b.send_message(
                 chat_id=m.chat.id,
-                text="<i>Something Went Wrong 🥲</i> <b> <a href='https://t.me/CSAdmin69_bot'>CLICK HERE FOR SUPPORT </a></b>",
+                text="<i>Something Went Wrong 🥲</i> <b> <a href='https://t.me/WaldyWritings_Bot'>CLICK HERE FOR SUPPORT </a></b>",
                 
                 disable_web_page_preview=True)
             return
     await StreamBot.send_photo(
         chat_id=m.chat.id,
-        photo ="https://graph.org/file/9b6db6a71379326c03bd9.jpg",
-        caption =f'Hi {m.from_user.mention(style="md")}!,\nSend Me Any File To See The Magic 🫣 With Love @CS_Files❤️',
+        photo ="https://telegra.ph/file/97cc4a8b2531a08fb4958.jpg",
+        caption =f'Hi {m.from_user.mention(style="md")}!,\nSend Me Any File To See The Magic 🫣 With Love @Waldy_Writings❤️',
         reply_markup=buttonz)
 
 
@@ -103,7 +103,7 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await StreamBot.send_photo(
                 chat_id=message.chat.id,
-                photo="https://graph.org/file/9b6db6a71379326c03bd9.jpg",
+                photo="https://telegra.ph/file/97cc4a8b2531a08fb4958.jpg",
                 Caption="**𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 𝚃𝙾 𝚄𝚂𝙴 ᴛʜɪs Bᴏᴛ!**\n\n__Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ!__",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -118,7 +118,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/CSAdmin69_bot).",
+                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Support](https://t.me/WaldyWritings_Bot).",
                 disable_web_page_preview=True)
             return
     await message.reply_text(
@@ -128,7 +128,7 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("💁‍♂️ Owner", url="https://t.me/CSadmin04")]
+                [InlineKeyboardButton("💁‍♂️ Owner", url="https://t.me/Waldy_2k4")]
         
             ]
         )
